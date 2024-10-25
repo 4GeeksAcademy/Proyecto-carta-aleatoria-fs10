@@ -7,16 +7,18 @@ body {
   height: 100vh;
   background-color: green;
 }
-.card {
-  height: 500px;
-  width: 300px;
-  margin: auto;
-  background-color: white;
-}
 .container {
   display: flex;
   justify-content: space-around;
   gap: 20px;
+}
+.card {
+  height: 200px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: relative;
 }
 .corner {
   position: absolute;
@@ -40,5 +42,13 @@ body {
 }
 .number {
   font-size: 20px;
+  color: black;
+}
+.center-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 40px;
   color: black;
 }

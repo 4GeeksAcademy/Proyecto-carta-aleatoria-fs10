@@ -8,8 +8,6 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
 
-  let card1 = document.querySelector(".card");
-  let caja = document.querySelector(".container");
   let numeros = document.getElementById("number");
   let iconoTop = document.querySelector(".top-left");
   let iconoBottom = document.querySelector(".bottom-right");
@@ -47,4 +45,5 @@ window.onload = function() {
       iconoBottom.style.color = "black";
     }
   }
+  randomCard();
 };
